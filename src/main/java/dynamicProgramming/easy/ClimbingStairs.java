@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package dynamicProgramming.easy;
 
 public class ClimbingStairs {
     /*
@@ -14,7 +14,7 @@ public class ClimbingStairs {
         from front to back
     5. print out the dp array (for debugging)
      */
-    public int climb(int n) {
+    public int solve(int n) {
         if (n < 2) return n;
         int[] dp = new int[n + 1];
         dp[0] = 0;

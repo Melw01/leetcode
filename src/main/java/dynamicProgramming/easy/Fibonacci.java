@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package dynamicProgramming.easy;
 
 public class Fibonacci {
     /*
@@ -14,7 +14,7 @@ public class Fibonacci {
     5. print out the dp array (for debugging)
      */
 
-    public int fib(int n) {
+    public int solve(int n) {
         if (n < 2) return n;
         int[] dp = new int[n+1];
         dp[0] = 1;
@@ -27,7 +27,7 @@ public class Fibonacci {
     }
 
 
-    public int fibConcise(int n) {
+    public int solveConcise(int n) {
         if (n < 2) return n;
 
         int a = 0;

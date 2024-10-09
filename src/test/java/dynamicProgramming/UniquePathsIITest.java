@@ -1,5 +1,6 @@
 package dynamicProgramming;
 
+import dynamicProgramming.easy.UniquePathsII;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -7,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class UniquePathsIITest {
 
     @Test
-    public void testUniquePathsII() {
+    public void test() {
         UniquePathsII uniquePathsII = new UniquePathsII();
         int[][] array1 = {
                 {0, 0, 0},

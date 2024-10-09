@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package dynamicProgramming.easy;
 
 public class UniquePathsII {
     /*
