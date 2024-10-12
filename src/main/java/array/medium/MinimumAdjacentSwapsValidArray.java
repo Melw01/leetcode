@@ -3,6 +3,7 @@ package array.medium;
 /**
  * #2340
  * <a href="https://leetcode.com/problems/minimum-adjacent-swaps-to-make-a-valid-array/description/">...</a>
+ * My Solution: <a href="https://leetcode.com/problems/minimum-adjacent-swaps-to-make-a-valid-array/solutions/5901312/java-beats-100-time-complexity-o-n-space-complexity-o-1-with-explanation/">...</a>
  */
 public class MinimumAdjacentSwapsValidArray {
     public int solve(int[] nums) {
